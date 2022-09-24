@@ -1,0 +1,99 @@
+/* ********----------RESET--------******* */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ********----------ZOOMBAR--------******* */
+
+.zoomBar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35px;
+    left: 1080px;
+    width: 85px;
+}
+
+.zoomBar div {
+    text-align: center;
+    width: 85px;
+    padding-top: 5px;
+}
+
+.zoomBar button {
+    margin: 0 5px;
+}
+
+/* ********----------MAIN--------******* */
+
+body {
+    font-size: 16px;
+    background: no-repeat url(./pissst.png);
+    background-size: 1220px;
+    background-position: 50% 10%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 80%;
+    height: 730px;
+    margin: auto;
+
+}
+
+.picto {
+    width: 75px;
+    transition: box-shadow 0.1s ease;
+}
+
+.pictoTen {
+    width: 83px;
+    transition: box-shadow 0.1s ease;
+}
+
+.pictoTwenty {
+    width: 94px;
+    transition: box-shadow 0.1s ease;
+}
+
+.container img:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* ********----------PICTO--------******* */
+
+.garage {
+    bottom: 0;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:flex-start;
+}
+
+.fly {
+    position: absolute;
+    z-index: 1000;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.container img.numeros {
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+/* ********----------RESET--------******* */
+/* ********----------RESET--------******* */
+/* ********----------RESET--------******* */
